@@ -104,8 +104,19 @@ run_procfile() {
 onexit() {
   echo "SIGINT received"
   echo "sending SIGTERM to all processes"
-  kill $pids
+  for pid in $pids
+  do
+    if ps -p $pid > /dev/null
+    then
+      echo "process $pid is running, killing"
+      kill $pid
+    else
+      echo "process $pid is not running, skipping"
+    fi
+  done
+
   sleep 1
+  exit 0
 }
 
 main() {

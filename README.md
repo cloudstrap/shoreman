@@ -12,7 +12,7 @@ Install as a standalone, change `~/bin/` to any other directory that's
 in your `$PATH` if you wish.
 
 ```
-curl https://github.com/chrismytton/shoreman/raw/master/shoreman.sh -sLo ~/bin/shoreman && \
+curl https://github.com/cloudstrap/shoreman/raw/master/shoreman.sh -sLo ~/bin/shoreman && \
 chmod 755 ~/bin/shoreman
 ```
 
@@ -45,24 +45,24 @@ make
 
 ## Projects using shoreman
 
-- [dokku-shoreman](https://github.com/statianzo/dokku-shoreman) a plugin
-  for [dokku](https://github.com/progrium/dokku) to allow it to run
-  multiple process types.
+*   [dokku-shoreman](https://github.com/statianzo/dokku-shoreman) a plugin
+    for [dokku](https://github.com/progrium/dokku) to allow it to run
+    multiple process types.
 
 ## Todo
 
-* Add concurrency controls for process types.
+*   Add concurrency controls for process types.
 
 ## Contributors
 
-* Chris Mytton ([@chrismytton](https://github.com/chrismytton))
-* Mickael Riga ([@mig-hub](https://github.com/mig-hub))
-* Matthew Johnston ([@warmwaffles](https://github.com/warmwaffles))
-* Dmitrij Mjakotnyi ([@kucaahbe](https://github.com/kucaahbe))
-* Stephen Paul Weber ([@singpolyma](https://github.com/singpolyma))
-* ryanrhee ([@ryanrhee](https://github.com/ryanrhee))
-* Lorenzo Giuliani ([@aliem](https://github.com/aliem))
-* KOSEKI Kengo ([@koseki](https://github.com/koseki))
+*   Chris Mytton ([@chrismytton](https://github.com/chrismytton))
+*   Mickael Riga ([@mig-hub](https://github.com/mig-hub))
+*   Matthew Johnston ([@warmwaffles](https://github.com/warmwaffles))
+*   Dmitrij Mjakotnyi ([@kucaahbe](https://github.com/kucaahbe))
+*   Stephen Paul Weber ([@singpolyma](https://github.com/singpolyma))
+*   ryanrhee ([@ryanrhee](https://github.com/ryanrhee))
+*   Lorenzo Giuliani ([@aliem](https://github.com/aliem))
+*   KOSEKI Kengo ([@koseki](https://github.com/koseki))
 
 ## Credits
 
